@@ -1,4 +1,4 @@
-# simple-web3-provider
+# WEB3-provider
 
 This library creates a web3 provider that delegates sending all signing methods to the given provider (if it is available) and all other methods to the provided endpoint
 
@@ -38,7 +38,3 @@ interface Options {
 ```
 
 - `maxRetries`: Number of retries for failed requests
-
-## License
-
-MIT License, see the included [LICENSE](LICENSE) file.
